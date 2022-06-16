@@ -82,7 +82,6 @@ footer i:hover{
 .articulos img:hover{
     transition: .9s;
     transform: scale(1.1);
-
     }
 
 /* ------------------------nuevo-------------------- */
@@ -307,7 +306,7 @@ input:hover{
        }
 }
 
-@media (max-width:425px) {
+@media (max-width:429px) {
 
     /*---------------------inicio--------------------*/
     .inicio {
@@ -316,8 +315,11 @@ input:hover{
     }
 
     .titulo {
-        margin-top: 80px;
-        font-size: 2rem;
+        margin-top: 150px;
+       
+    }
+    .titulo h1{
+        font-size: 3rem;
     }
 
     .innew {
@@ -389,11 +391,6 @@ input:hover{
         margin: 10px;
         font-size: 14px;
     }
-
-
-    /*-------------------------- header------------ */
-
-
 
     /*--------------------------- nosotros------------------ */
     .informacion {
