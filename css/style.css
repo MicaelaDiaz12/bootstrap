@@ -6,6 +6,7 @@
 /*----------------------- header para todas las paginas ---------------------- */
 header {
     grid-area: header;
+    
 }
 
 /*------------------- footer para todas las paginas ------------ */
@@ -46,24 +47,27 @@ footer i:hover{
     background-image: url(./jkll.\,.jpg);
     background-repeat: no-repeat;
     width: 100%;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .titulo {
     grid-area: titulo;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin: 130px 0px 100px 0px;
-    font-size: 4rem;
+    margin: 180px 0px 100px 0px;
+}
+
+.titulo h1 {
+    font-size: 6rem;
 }
 
 .innew {
     grid-area: innew;
-    margin-top: 155px;
+    margin-top: 175px;
 }
 
 .innew img {
     width: 100%;
-    transition: 3s;
 }
 
 .articulos {
